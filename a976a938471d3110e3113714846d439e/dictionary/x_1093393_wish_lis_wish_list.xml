@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0148e9b0475d3110e3113714846d43b0" label="Wish List" max_length="40" name="x_1093393_wish_lis_wish_list" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Item" mandatory="true" max_length="125" name="item" type="string"/>
-        <element label="Naughty or Nice" max_length="40" name="naughty_or_nice" type="boolean"/>
+        <element label="Naughty or Nice? (check if Nice)" max_length="40" name="naughty_or_nice" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Notes (if you want to make a case for your wish)" max_length="4000" name="notes" type="journal"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
@@ -16,6 +16,7 @@
                 <element inactive_on_update="false" label="Wish granted" value="wish_granted"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Display name" max_length="300" name="u_display_name" read_only="true" type="string"/>
         <index name="index">
             <element name="requester"/>
         </index>
