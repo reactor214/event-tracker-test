@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_1093393_wish_lis_wish_list</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Wish List Form Screen">7ca8e1f0475d3110e3113714846d4352</embedded_screen>
+        <item_view/>
+        <name>Wish List master_item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-13 03:07:37</sys_created_on>
+        <sys_id>bca8e1f0475d3110e3113714846d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Wish List master_item</sys_name>
+        <sys_package display_value="Wish List" source="x_1093393_wish_lis">a976a938471d3110e3113714846d439e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wish List">a976a938471d3110e3113714846d439e</sys_scope>
+        <sys_update_name>sys_sg_master_item_bca8e1f0475d3110e3113714846d4356</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-13 03:07:37</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Wish List List Screen View Config">a4a8e1f0475d3110e3113714846d4313</view_config>
+    </sys_sg_master_item>
+</record_update>

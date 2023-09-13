@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Edit (Wish List)</name>
+        <parameter_screen/>
+        <query_condition table="x_1093393_wish_lis_wish_list">sys_idSTARTSWITH{{Wish List sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Wish List sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-13 03:07:38</sys_created_on>
+        <sys_id>3ca8e1f0475d3110e3113714846d436d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Edit (Wish List)</sys_name>
+        <sys_package display_value="Wish List" source="x_1093393_wish_lis">a976a938471d3110e3113714846d439e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wish List">a976a938471d3110e3113714846d439e</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_3ca8e1f0475d3110e3113714846d436d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-13 03:07:38</sys_updated_on>
+        <table>x_1093393_wish_lis_wish_list</table>
+        <template>item={{Wish List item}}^naughty_or_nice={{Wish List naughty_or_nice}}^notes={{Wish List notes}}^number={{Wish List number}}^requester={{Wish List requester}}^state={{Wish List state}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=3ca8e1f0475d3110e3113714846d436d"/>
+</record_update>

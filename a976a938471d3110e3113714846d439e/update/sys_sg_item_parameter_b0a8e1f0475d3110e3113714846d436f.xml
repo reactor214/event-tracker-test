@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Wish List naughty_or_nice</name>
+        <parent>3ca8e1f0475d3110e3113714846d436d</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-13 03:07:38</sys_created_on>
+        <sys_id>b0a8e1f0475d3110e3113714846d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Wish List naughty_or_nice</sys_name>
+        <sys_package display_value="Wish List" source="x_1093393_wish_lis">a976a938471d3110e3113714846d439e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wish List">a976a938471d3110e3113714846d439e</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_b0a8e1f0475d3110e3113714846d436f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-13 03:07:38</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>
