@@ -4,7 +4,9 @@
         <element label="Naughty or Nice" max_length="40" name="naughty_or_nice" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Notes (if you want to make a case for your wish)" max_length="4000" name="notes" type="journal"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
         <element attributes="encode_utf8=false" label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element label="Request URL" max_length="1024" name="request_url" type="url"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="still_dreaming_about_it" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Approved" value="approved"/>
