@@ -1,2 +1,2 @@
-# event-tracker-test
-Test Repo for event tracker App
+# wish-list-app
+Wish list app to make your dreams come true! 
